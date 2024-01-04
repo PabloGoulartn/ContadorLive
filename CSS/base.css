@@ -14,15 +14,22 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
     color: white;
 }
 
 .container{
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-color: #00000094;
+}
+
+.live-section{
+    height: 200px;
+    text-align: center;
 }
 
 .title{
@@ -37,7 +44,31 @@ body{
 
 .counter-section{
     width: 90%;
+    height: 300px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
+}
+
+.counter-number{
+    font-size: 90px;
+    font-weight: 700;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff
+}
+
+.counter-label{
+    text-transform: capitalize;
+}
+
+.signup-button{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
 }
